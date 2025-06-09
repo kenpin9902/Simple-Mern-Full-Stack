@@ -1,0 +1,44 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b3b3b;
+    padding: 1.5rem 5rem;
+}
+
+.navbar h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+.navbar h2:hover {
+    scale: 1.1;
+}
+
+.navbar button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.navbar button a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navbar button:hover {
+    border-color: #646cff;
+    outline: 4px auto #646cff;
+    scale: 1.1;
+}
+
+
